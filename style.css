@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#403075,#882061);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xylophone {
+  display: flex;
+  position: relative;
+  margin-left: 4px;
+  top: -70px;
+}
+
+.white-key {
+  width: 60px;
+  height: 200px;
+  position: relative;
+  background-color: #FFF;
+  border: 1px solid black;
+  border-radius: 0 0 6px 6px;
+  margin-left: -4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.A-key.active{
+  background-color: violet;
+}
+
+.B-key.active{
+  background-color: indianred;
+}
+
+.C-key.active{
+  background-color: blue;
+}
+
+.D-key.active{
+  background-color: green;
+}
+
+.E-key.active{
+  background-color: yellow;
+}
+
+.F-key.active{
+  background-color: orangered;
+}
+
+.G-key.active{
+  background-color: red;
+}
